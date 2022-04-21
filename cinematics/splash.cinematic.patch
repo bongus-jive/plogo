@@ -1,0 +1,30 @@
+[{
+	"op" : "replace",
+	"path" : "/panels/0",
+	"value" : {
+		"drawables" : [
+			{
+				"image" : "/cinematics/plogo.png:<frame>"
+			}
+		],
+		"animationFrames" : 30,
+		"startTime" : 0,
+		"keyframes" : [
+			{
+				"timecode" : 0,
+				"alpha" : 0,
+				"position" : [910, 50],
+				"zoom" : 0.5,
+				"frame" : 0
+			},
+			{
+				"timecode" : 0.5,
+				"alpha" : 1
+			},
+			{
+				"timecode" : 10000,
+				"frame" : 210000
+			}
+		]
+	}
+}]
